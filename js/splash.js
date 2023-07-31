@@ -5,7 +5,6 @@ var words = ['change ... lead or respond',
              'solution ... product definition',
              'solution ... technology architecture',
              'solution ... implementation',
-             'solution ... transformation management',
              'execution ... in production',
              'realize ... revenue and efficiency',
              'FT Advisory LLC'],
@@ -14,8 +13,8 @@ var words = ['change ... lead or respond',
   lastChar  = 1, // end character in the word
   skipping  = false;
   skipCount = 0,
-  skipDelay = 15,
-  speed     = 100;
+  skipDelay = 8,
+  speed     = 70;
   
 intervalId = null;
 function displaySplash() {
